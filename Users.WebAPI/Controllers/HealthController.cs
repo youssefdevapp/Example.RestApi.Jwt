@@ -7,7 +7,7 @@ namespace Users.WebApi.Controllers
     /// Health Check controller
     /// </summary>
     [ApiVersion(1.0)]
-    [RoutePrefix("api/v{version:apiVersion}/check")]
+    [RoutePrefix("api/v{version:apiVersion}/health/check")]
     public class HealthController : ApiController
     {
         [Route]
